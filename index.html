@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Credit Card Detection System</h1>
+            <p>Detect fraud by verifying credit card information with face recognition.</p>
+        </header>
+
+        <section class="input-section">
+            <h2>Upload Credit Card Image</h2>
+            <input type="file" id="creditCardImage" accept="image/*">
+            
+            <h2>Capture Face Image</h2>
+            <input type="file" id="faceImage" accept="image/*">
+            
+            <button id="startDetection">Start Detection</button>
+            <button id="reset">Reset</button>
+        </section>
+
+        <section class="results-section">
+            <h2>Detection Results</h2>
+            <p id="results">No results yet.</p>
+        </section>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
